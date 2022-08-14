@@ -48,6 +48,7 @@ public class TestListener implements ITestListener{
 	}
 
 @Test
-  public void f() {
+  public void failedM() {
+ Assert.assertTrue(False);
   }
 }
